@@ -1,0 +1,487 @@
+* {
+  font-family: 'Genos', sans-serif;
+}
+
+body {
+  background-image: url("/img/MissStarlingBackground4.png") !important;
+  background-size: 100%;
+  background-position: top;
+  background-repeat: repeat;
+  background-size: contain;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+/* try */
+.containerhome{
+  background-image: url("/img/WebsiteWallpaper.png") !important;
+  background-size: 100%;
+  background-position: top;
+  background-repeat: repeat;
+  background-size: contain;
+}
+.containermusic{
+  background-image: url("/img/MissStarlingBackground2.1.png") !important;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:  cover;
+}
+.containerconcerts{
+  background-image: url("/img/MissStarlingBackground3.png") !important;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:  contain;
+}
+.containeraboutme{
+  background-image: url("/img/MissStarlingBackground4.png") !important;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:  cover;
+}
+.containercontact{
+  background-image: url("/img/MissStarlingBackground5.png") !important;
+  background-size: 100%;
+  background-position:  bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.containermerch{
+  background-image: url("/img/MissStarlingBackground6.png") !important;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:  cover;
+  padding-left: 7%;
+}
+/* nav bar */
+/* fixed the display problems like repeated img and deleting the horizontal scrolling made some ajusment on the position of things and delete some non necesary things */
+.navbar {
+  float: none !important;
+  margin: left !important;
+  display: block;
+  text-align: center !important;
+}
+.navbar-brand {
+  float: left;
+}
+
+.container-fluid {
+  margin-bottom: 10%;
+}
+
+.containerlogos {
+  text-align: center;
+}
+
+/* this is the dropdown menu  */
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  right: 40%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 38px;
+}
+
+.dropdown-content a:hover {
+  background-color: #00006D;
+  color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #00006D;
+}
+
+/* luciano:I change the logo display by removing the columns and making the comloumns be the whole nav bar not only the logos and then i put logos insisde so they got centered automaticly  */
+.fb {
+  text-align: center;
+}
+
+.ig {
+  text-align: center;
+}
+
+.tw {
+  text-align: center;
+}
+
+.logo {
+  text-align: right;
+}
+
+/* luci<no home page */
+.firstpic {
+  margin-top: 5px;
+  text-align: center;
+  position: relative;
+  left: 33%;
+  bottom: 90%;
+}
+
+.titleef {
+  text-align: center;
+  position: absolute;
+  left: 33%;
+  bottom: 52%;
+}
+
+.music {
+  margin-top: 100px;
+  padding-bottom: 10%;
+}
+
+/* music page */
+.mutl {
+  margin-top: 20%;
+  margin-bottom: 10%;
+  font-size: 90px;
+}
+iframe{
+margin-bottom: 40%;
+padding-left:5%;
+padding-right: 5%;
+}
+
+/* about me page */
+.effect{
+position: relative;
+right: ;
+
+}
+.abtl {
+  margin-bottom: 10%;
+  font-size: 90px;
+}
+.effect{
+
+}
+h2 {
+  color: white;
+  padding-bottom: 10%;
+  text-align: center;
+}
+
+.containeraboutme {
+  margin-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.aboutimgt {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 33%;
+}
+
+.aboutimgb {
+  text-align: center;
+  margin-top: 9%;
+}
+
+p {
+  color: white;
+  padding-top: 10%;
+  text-align: justify;
+}
+
+.pa {
+  padding-top: 0%;
+}
+
+/* luciano */
+h1 {
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 10%;
+  color: white;
+}
+
+/* contact page */
+section #contact{
+background-image: url("/img/MissStarlingBackground.png");
+}
+.outbox {
+  padding-left: 90px;
+}
+.cotl{
+font-size: 90px;
+}
+label input {
+  width: 250px;
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+}
+
+.submitb {
+  padding-left: 20%;
+  padding-right: 20%;
+  opacity: 100%;
+  border-color: black;
+  background-color: black;
+  margin-top: 5%;
+  color: white  !important;
+}
+
+.cont {
+  margin-right: 63%;
+  margin-bottom: -1%;
+  color: white;
+}
+
+.cont1 {
+  margin-right: 65%;
+  margin-bottom: -1%;
+  color: white;
+}
+textarea{
+opacity: 30%;
+color: white;
+background-color: black;
+}
+input{
+opacity: 30%;
+color: white;
+background-color: black;
+}
+
+label {
+  text-align: center;
+}
+
+.background {
+  height: 500px;
+  width: 460px;
+  padding-top: 20px;
+  margin-top: -25%;
+  margin-bottom: 10%;
+  position: relative;
+  left: 21%;
+}
+
+.intro2 {
+  position: relative;
+  top: 20%;
+}
+
+.cont {
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+}
+
+.titleform {
+  text-align: left;
+  font-size: 34px;
+  color: white;
+  margin-top: -4%;
+  margin-bottom: 2%;
+}
+
+.submit {
+  padding-left: -20%;
+  margin-top: 35%;
+}
+
+/* concert page */
+.contl{
+  margin-bottom: 10%;
+  font-size: 90px;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  font-size: 26px;
+  margin-bottom: 10%;
+}
+
+td, th {
+  border: 1px solid white;
+  text-align: left;
+  padding: 5px;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #000000;
+  opacity: 0%;
+}
+
+.btnm {
+  background-color: white;
+  border-width: 1px;
+  border-color: :#000000;
+  position: relative;
+  left: 80%;
+  width: 75px;
+}
+
+/* Merch page */
+.prices {
+  position: relative;
+  top: 40%;
+  left: 27%;
+  font-size: 40px;
+}
+
+.card1 {
+  width: 100%;
+  height: 400px;
+  background: url("/img/merch/bag1front.png") no-repeat;
+  background-size: 200px 200px;
+}
+
+.card1:hover {
+  width: 100%;
+  height: 400px;
+  background: url("/img/merch/bag1back.png") no-repeat;
+  background-size: 200px 200px;
+}
+
+.card2 {
+  width: 100%;
+  height: 400px;
+  background: url("/img/merch/bag2front.png") no-repeat;
+  background-size: 200px 200px;
+}
+
+.card2:hover {
+  width: 100%;
+  height: 400px;
+  background: url("/img/merch/bag2back.png") no-repeat;
+  background-size: 200px 200px;
+}
+
+.card3 {
+  width: 100%;
+  height: 400px;
+  background: url("/img/merch/hoodie1front.png") no-repeat;
+  background-size: 200px 200px;
+}
+
+.card3:hover {
+  width: 100%;
+  height: 400px;
+  background: url("/img/merch/hoodie1back.png") no-repeat;
+  background-size: 200px 200px;
+}
+
+.card4 {
+  width: 100%;
+  height: 400px;
+  background: url("/img/merch/shirt2front.png") no-repeat;
+  background-size: 200px 200px;
+}
+
+.card4:hover {
+  width: 100%;
+  height: 400px;
+  background: url("/img/merch/shirt2back.png") no-repeat;
+  background-size: 200px 200px;
+}
+
+.card5 {
+  width: 100%;
+  height: 400px;
+  background: url("/img/merch/croptop1front.png") no-repeat;
+  background-size: 200px 200px;
+}
+
+.card5:hover {
+  width: 100%;
+  height: 400px;
+  background: url("/img/merch/croptop1back.png") no-repeat;
+  background-size: 200px 200px;
+}
+
+.card6 {
+  width: 100%;
+  height: 400px;
+  background: url("/img/merch/croptop2front.png") no-repeat;
+  background-size: 200px 200px;
+}
+
+.card6:hover {
+  width: 100%;
+  height: 400px;
+  background: url("/img/merch/croptop2back.png") no-repeat;
+  background-size: 200px 200px;
+}
+
+.card7 {
+  width: 100%;
+  height: 400px;
+  background: url("/img/merch/shirt1front.png") no-repeat;
+  background-size: 200px 200px;
+}
+
+.card7:hover {
+  width: 100%;
+  height: 400px;
+  background: url("/img/merch/shirt1back.png") no-repeat;
+  background-size: 200px 200px;
+}
+
+.card8 {
+  width: 100%;
+  height: 400px;
+  background: url("/img/merch/hoodie2front.png") no-repeat;
+  background-size: 200px 200px;
+}
+
+.card8:hover {
+  width: 100%;
+  height: 400px;
+  background: url("/img/merch/hoodie2back.png") no-repeat;
+  background-size: 200px 200px;
+}
+.mtl {
+  position: relative;
+  right: 4%;
+  margin-bottom: 10%;
+  font-size: 90px;
+}
+.containerlogosf{
+position: relative;
+left: 95%;
+padding-top: 10%;
+}
+
+.foot{
+  position: relative;
+  left: 72%;
+  padding-top: 10%;
+}
